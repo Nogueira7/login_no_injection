@@ -1,5 +1,5 @@
 <?php
-
+//Td este codigo deixa passar injecao "' OR 1=1 #"
 include_once('connection.php');
 
 if ($_SERVER["REQUEST_METHOD"]== "POST") {
