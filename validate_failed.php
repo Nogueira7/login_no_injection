@@ -1,5 +1,5 @@
 <?php
-//Td este codigo deixa passar injecao "' OR 1=1 #"
+//Td este codigo deixa passar injecao no campo do username com as seguintes passes: "' OR 1=1 #", "admin';--".
 include_once('connection.php');
 
 if ($_SERVER["REQUEST_METHOD"]== "POST") {
